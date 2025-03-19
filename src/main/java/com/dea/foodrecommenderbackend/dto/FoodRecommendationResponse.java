@@ -1,16 +1,19 @@
 package com.dea.foodrecommenderbackend.dto;
 
+import com.dea.foodrecommenderbackend.model.Food;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class FoodRecommendationResponse {
-    private double totalEnergyExpenditure; // TEE
-    private List<String> recommendedFoods;
-
-    public FoodRecommendationResponse(double tee, List<String> recommendedFoods) {
-        this.totalEnergyExpenditure = tee;
-        this.recommendedFoods = recommendedFoods;
-    }
+    private List<Food> sarapan;
+    private List<Food> makanSiang;
+    private List<Food> makanMalam;
+    private List<Food> cemilan;
 }
+

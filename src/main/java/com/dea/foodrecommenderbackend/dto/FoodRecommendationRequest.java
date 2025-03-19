@@ -1,13 +1,17 @@
 package com.dea.foodrecommenderbackend.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class FoodRecommendationRequest {
-    private double tb; // tb
-    private double bb; // bb
+    private double tinggiBadan; // tb
+    private double beratBadan; // bb
     private double usia; // usia
     private double usiaKehamilan; // usia kehamilan
     private List<String> alergi;
