@@ -60,24 +60,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiKategoriStres -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiKategoriStres">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelAktivitas -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelAktivitas">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelNutrisi -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelNutrisi">
@@ -164,15 +146,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTrimester -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTrimester">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#sesuaiUntukWaktuMakan -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#sesuaiUntukWaktuMakan">
@@ -199,15 +172,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAMB -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAMB">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
     
 
 
@@ -247,33 +211,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiBBI -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiBBI">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiBBIH -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiBBIH">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiBeratBadan -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiBeratBadan">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDeskripsi -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDeskripsi">
@@ -288,24 +225,6 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiFaktorAktivitas -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiFaktorAktivitas">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiFaktorStres -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiFaktorStres">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
     
 
@@ -436,15 +355,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTEE -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTEE">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTambahanKarbohidrat -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTambahanKarbohidrat">
@@ -466,33 +376,6 @@
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTambahanProtein -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTambahanProtein">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTinggiBadan -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiTinggiBadan">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiUsia -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiUsia">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiUsiaKehamilan -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiUsiaKehamilan">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
@@ -556,18 +439,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    
-
-
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Lauk -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Lauk">
@@ -601,12 +472,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Sayur">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Menu"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester"/>
     
 
 
@@ -3444,14 +3309,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Menu"/>
         <memilikiAlergiTerhadap rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Kacang"/>
         <memilikiAlergiTerhadap rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Seafood"/>
-        <memilikiKategoriStres rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#TidakStres"/>
-        <memilikiLevelAktivitas rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#DiTempatTidur"/>
-        <memilikiTrimester rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester1"/>
-        <memilikiAMB rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1313.5</memilikiAMB>
-        <memilikiBeratBadan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</memilikiBeratBadan>
         <memilikiDiabetesGestasional>ya</memilikiDiabetesGestasional>
-        <memilikiFaktorAktivitas rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2</memilikiFaktorAktivitas>
-        <memilikiFaktorStres rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3</memilikiFaktorStres>
         <memilikiKaloriCemilan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">557.265</memilikiKaloriCemilan>
         <memilikiKaloriMakanMalam rdf:datatype="http://www.w3.org/2001/XMLSchema#double">557.265</memilikiKaloriMakanMalam>
         <memilikiKaloriMakanSiang rdf:datatype="http://www.w3.org/2001/XMLSchema#double">668.718</memilikiKaloriMakanSiang>
@@ -3459,13 +3317,9 @@
         <memilikiKebutuhanKarbohidrat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">359.359</memilikiKebutuhanKarbohidrat>
         <memilikiKebutuhanLemak rdf:datatype="http://www.w3.org/2001/XMLSchema#double">64.218</memilikiKebutuhanLemak>
         <memilikiKebutuhanProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.59</memilikiKebutuhanProtein>
-        <memilikiTEE rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2229.06</memilikiTEE>
         <memilikiTambahanKarbohidrat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</memilikiTambahanKarbohidrat>
         <memilikiTambahanLemak rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3</memilikiTambahanLemak>
         <memilikiTambahanProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</memilikiTambahanProtein>
-        <memilikiTinggiBadan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</memilikiTinggiBadan>
-        <memilikiUsia rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</memilikiUsia>
-        <memilikiUsiaKehamilan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.0</memilikiUsiaKehamilan>
     </owl:NamedIndividual>
     
 
@@ -5463,9 +5317,7 @@
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Berat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Berat">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Berat"/>
     
 
 
@@ -9212,9 +9064,7 @@
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#DiTempatTidur -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#DiTempatTidur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#DiTempatTidur"/>
     
 
 
@@ -16801,14 +16651,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Menu"/>
         <memilikiAlergiTerhadap rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Seafood"/>
-        <memilikiKategoriStres rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#TidakStres"/>
-        <memilikiLevelAktivitas rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Ringan"/>
-        <memilikiTrimester rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester1"/>
-        <memilikiAMB rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1295.7</memilikiAMB>
-        <memilikiBeratBadan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.0</memilikiBeratBadan>
         <memilikiDiabetesGestasional>ya</memilikiDiabetesGestasional>
-        <memilikiFaktorAktivitas rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.4</memilikiFaktorAktivitas>
-        <memilikiFaktorStres rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3</memilikiFaktorStres>
         <memilikiKaloriCemilan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">634.5435</memilikiKaloriCemilan>
         <memilikiKaloriMakanMalam rdf:datatype="http://www.w3.org/2001/XMLSchema#double">634.5435</memilikiKaloriMakanMalam>
         <memilikiKaloriMakanSiang rdf:datatype="http://www.w3.org/2001/XMLSchema#double">761.4522</memilikiKaloriMakanSiang>
@@ -16816,13 +16659,9 @@
         <memilikiKebutuhanKarbohidrat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">405.7261</memilikiKebutuhanKarbohidrat>
         <memilikiKebutuhanLemak rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.8048</memilikiKebutuhanLemak>
         <memilikiKebutuhanProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#double">96.1815</memilikiKebutuhanProtein>
-        <memilikiTEE rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2538.174</memilikiTEE>
         <memilikiTambahanKarbohidrat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</memilikiTambahanKarbohidrat>
         <memilikiTambahanLemak rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3</memilikiTambahanLemak>
         <memilikiTambahanProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</memilikiTambahanProtein>
-        <memilikiTinggiBadan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">158.0</memilikiTinggiBadan>
-        <memilikiUsia rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.0</memilikiUsia>
-        <memilikiUsiaKehamilan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.0</memilikiUsiaKehamilan>
     </owl:NamedIndividual>
     
 
@@ -17175,9 +17014,7 @@
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#LukaSerius -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#LukaSerius">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#LukaSerius"/>
     
 
 
@@ -17203,14 +17040,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Menu"/>
         <memilikiAlergiTerhadap rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Tidak"/>
-        <memilikiKategoriStres rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresBerat"/>
-        <memilikiLevelAktivitas rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Sedang"/>
-        <memilikiTrimester rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester1"/>
-        <memilikiAMB rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1491.4</memilikiAMB>
-        <memilikiBeratBadan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.0</memilikiBeratBadan>
         <memilikiDiabetesGestasional>tidak</memilikiDiabetesGestasional>
-        <memilikiFaktorAktivitas rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</memilikiFaktorAktivitas>
-        <memilikiFaktorStres rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6</memilikiFaktorStres>
         <memilikiKaloriCemilan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">939.84</memilikiKaloriCemilan>
         <memilikiKaloriMakanMalam rdf:datatype="http://www.w3.org/2001/XMLSchema#double">939.84</memilikiKaloriMakanMalam>
         <memilikiKaloriMakanSiang rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1127.808</memilikiKaloriMakanSiang>
@@ -17218,13 +17048,9 @@
         <memilikiKebutuhanKarbohidrat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">588.904</memilikiKebutuhanKarbohidrat>
         <memilikiKebutuhanLemak rdf:datatype="http://www.w3.org/2001/XMLSchema#double">106.73</memilikiKebutuhanLemak>
         <memilikiKebutuhanProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#double">141.976</memilikiKebutuhanProtein>
-        <memilikiTEE rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3759.36</memilikiTEE>
         <memilikiTambahanKarbohidrat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</memilikiTambahanKarbohidrat>
         <memilikiTambahanLemak rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3</memilikiTambahanLemak>
         <memilikiTambahanProtein rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</memilikiTambahanProtein>
-        <memilikiTinggiBadan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">160.0</memilikiTinggiBadan>
-        <memilikiUsia rdf:datatype="http://www.w3.org/2001/XMLSchema#double">28.0</memilikiUsia>
-        <memilikiUsiaKehamilan rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.0</memilikiUsiaKehamilan>
     </owl:NamedIndividual>
     
 
@@ -17290,17 +17116,13 @@
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Ringan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Ringan">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Ringan"/>
     
 
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#SangatRingan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#SangatRingan">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#SangatRingan"/>
     
 
 
@@ -17322,41 +17144,31 @@
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Sedang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Sedang">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriAktivitas"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Sedang"/>
     
 
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#StresBerat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresBerat">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresBerat"/>
     
 
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#StresRingan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresRingan">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresRingan"/>
     
 
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#StresSangatBerat -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresSangatBerat">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresSangatBerat"/>
     
 
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#StresSedang -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresSedang">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#StresSedang"/>
     
 
 
@@ -17386,9 +17198,7 @@
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#TidakStres -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#TidakStres">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#KategoriStres"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#TidakStres"/>
     
 
 
@@ -17426,25 +17236,19 @@
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester1"/>
     
 
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester2"/>
     
 
 
     <!-- http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester3 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#Trimester3"/>
     
 
 
@@ -17459,19 +17263,13 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#i">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#a">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#m">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu">
+    <rdf:Description rdf:about="http://www.semanticweb.org/dell/ontologies/2025/1/food#l">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
         <rdfs:comment></rdfs:comment>
-        <rdfs:label>Cegah Tinggi Karbo Buah</rdfs:label>
+        <rdfs:label>merekomendasikan makanan tinggi zat besi</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
             <rdf:Description>
@@ -17488,1047 +17286,12 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>ya</swrl:argument2>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Lauk"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#l"/>
                             </rdf:Description>
                         </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Buah"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelNutrisi"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#RendahKarbohidrat"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiBuah"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Makanan Pokok untuk Ibu Hamil</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>tidak</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#MakananPokok"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiMakananPokok"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Makanan Untuk Makan Malam</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#MakananPokok"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#sesuaiUntukWaktuMakan"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#MakanMalam"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiMakanMalam"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Makanan Untuk Makan Siang</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#MakananPokok"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#sesuaiUntukWaktuMakan"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#MakanSiang"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiMakanSiang"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Makanan Untuk Sarapan</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#MakananPokok"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#sesuaiUntukWaktuMakan"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Sarapan"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiSarapan"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Cegah Tinggi Karbo Sayur</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>ya</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Sayur"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelNutrisi"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#RendahKarbohidrat"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiSayur"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Buah untuk Ibu Hamil</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>tidak</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Buah"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiBuah"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Sayur untuk Ibu Hamil</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>tidak</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Sayur"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiSayur"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Cegah Tinggi Karbo Cemilan</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>ya</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Cemilan"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelNutrisi"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#RendahKarbohidrat"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiCemilan"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Cemilan untuk Ibu Hamil</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>tidak</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Cemilan"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiCemilan"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Cegah Tinggi Karbo Lauk</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>ya</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Lauk"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelNutrisi"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#RendahKarbohidrat"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                     </rdf:Description>
                 </rdf:rest>
             </rdf:Description>
@@ -18541,214 +17304,7 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiLauk"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Lauk untuk Ibu Hamil</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>tidak</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#Lauk"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiLauk"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
-        <rdfs:label>Cegah Tinggi Karbo Makanan Pokok</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#IbuHamil"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiDiabetesGestasional"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                <swrl:argument2>ya</swrl:argument2>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiAlergiTerhadap"/>
-                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                        <rdf:first>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#MakananPokok"/>
-                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                            </rdf:Description>
-                                        </rdf:first>
-                                        <rdf:rest>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                <rdf:first>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#tidakMengandung"/>
-                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#a"/>
-                                                    </rdf:Description>
-                                                </rdf:first>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                        <rdf:first>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiLevelNutrisi"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#RendahKarbohidrat"/>
-                                                            </rdf:Description>
-                                                        </rdf:first>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                <rdf:first>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#disajikanPada"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#waktu"/>
-                                                                    </rdf:Description>
-                                                                </rdf:first>
-                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </rdf:rest>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#memilikiRekomendasiMakananPokok"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#i"/>
-                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#m"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/dell/ontologies/2025/1/food#l"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
