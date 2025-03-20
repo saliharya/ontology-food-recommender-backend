@@ -16,6 +16,5 @@ public class Food {
     private double karbohidrat;
     private double serat;
     private double zatBesi;
-    private String sesuaiUntukWaktuMakan;
     private List<Alergen> tidakMengandung;
 }

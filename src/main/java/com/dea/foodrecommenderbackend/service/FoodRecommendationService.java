@@ -68,13 +68,21 @@ public class FoodRecommendationService {
 
     private List<Food> getFoodsFromOntology(String waktuMakan) {
         List<Food> foods = new ArrayList<>();
+
+        // Definisi nama properti dalam ontologi
         String menuClassName = "Menu";
         String memilikiKaloriPropertyName = "memilikiKalori";
+        String memilikiProteinPropertyName = "memilikiProtein";
+        String memilikiKarbohidratPropertyName = "memilikiKarbohidrat";
+        String memilikiSeratPropertyName = "memilikiSerat";
+        String memilikiZatBesiPropertyName = "memilikiZatBesi";
         String tidakMengandungPropertyName = "tidakMengandung";
         String sesuaiUntukWaktuMakanPropertyName = "disajikanPada";
+        String memilikiNamaPropertyName = "memilikiNama";
 
         OntClass menuClass = ontModel.getOntClass(ontologyIri + menuClassName);
         if (menuClass == null) {
+            System.out.println("Menu class not found in ontology: " + ontologyIri + menuClassName);
             return foods;
         }
 
@@ -83,45 +91,53 @@ public class FoodRecommendationService {
             return foods;
         }
 
+        // Loop semua makanan yang sesuai dengan waktu makan
         ontModel.listIndividuals(menuClass).filterKeep(menu -> menu.hasProperty(ontModel.getProperty(ontologyIri + sesuaiUntukWaktuMakanPropertyName), waktuMakanIndividual)).forEachRemaining(menuIndividual -> {
-            String memilikiNamaPropertyName = "memilikiNama";
             Property memilikiNamaProperty = ontModel.getProperty(ontologyIri + memilikiNamaPropertyName);
-
-            Literal namaLiteral = menuIndividual.getPropertyValue(memilikiNamaProperty) != null ?
+            Literal namaLiteral = (menuIndividual.getPropertyValue(memilikiNamaProperty) != null) ?
                     menuIndividual.getPropertyValue(memilikiNamaProperty).asLiteral() : null;
-
             String foodName = (namaLiteral != null) ? namaLiteral.getString() : menuIndividual.getLocalName();
 
-            int calories = 0;
+            // Mengambil nilai properti makanan dengan pengecekan null
+            double calories = getLiteralValue(menuIndividual, memilikiKaloriPropertyName, 0);
+            double protein = getLiteralValue(menuIndividual, memilikiProteinPropertyName, 0.0);
+            double carbs = getLiteralValue(menuIndividual, memilikiKarbohidratPropertyName, 0.0);
+            double fiber = getLiteralValue(menuIndividual, memilikiSeratPropertyName, 0.0);
+            double iron = getLiteralValue(menuIndividual, memilikiZatBesiPropertyName, 0.0);
+
+            // Mengambil daftar alergen dari ontologi
             List<Alergen> alergenList = new ArrayList<>();
-
-            Literal calorieLiteral =
-                    menuIndividual.getPropertyValue(ontModel.getProperty(ontologyIri + memilikiKaloriPropertyName)).asLiteral();
-            if (calorieLiteral != null) {
-                calories = calorieLiteral.getInt();
-            }
-
             ontModel.listObjectsOfProperty(menuIndividual,
                     ontModel.getProperty(ontologyIri + tidakMengandungPropertyName)).forEachRemaining(allergen -> {
-                try {
-                    Alergen a = Alergen.valueOf(((Resource) allergen).getLocalName());
-                    alergenList.add(a);
-                } catch (IllegalArgumentException e) {
-                    // Ignore unknown allergens
+                if (allergen.isResource()) {
+                    String allergenName = ((Resource) allergen).getLocalName();
+                    try {
+                        alergenList.add(Alergen.valueOf(allergenName));
+                    } catch (IllegalArgumentException e) {
+                        System.out.println("Unknown allergen: " + allergenName);
+                    }
                 }
             });
 
-            List<String> waktuMakanList = new ArrayList<>();
-            ontModel.listObjectsOfProperty(menuIndividual,
-                    ontModel.getProperty(ontologyIri + sesuaiUntukWaktuMakanPropertyName)).forEachRemaining(resource -> waktuMakanList.add(((Resource) resource).getLocalName()));
-
-            String waktuMakanStr = String.join(", ", waktuMakanList);
-
-            foods.add(new Food(foodName, calories, 0, 0, 0, 0, waktuMakanStr, alergenList));
+            foods.add(new Food(foodName, calories, protein, carbs, fiber, iron, alergenList));
         });
 
         return foods;
     }
+
+    /**
+     * Helper function untuk mendapatkan nilai dari properti ontologi dengan pengecekan null.
+     */
+    private double getLiteralValue(Individual individual, String propertyName, double defaultValue) {
+        Property property = ontModel.getProperty(ontologyIri + propertyName);
+        if (property == null)
+            return defaultValue;
+
+        Literal literal = individual.getPropertyValue(property) != null ?
+                individual.getPropertyValue(property).asLiteral() : null;
+        return (literal != null) ? literal.getDouble() : defaultValue;
+    }
+
 
     private boolean isFoodIncompatibleWithAllergies(Food food, Set<Alergen> allergies) {
         String foodUri = ontologyIri + food.getNama();
