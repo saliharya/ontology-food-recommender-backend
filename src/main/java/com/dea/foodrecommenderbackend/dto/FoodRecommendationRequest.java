@@ -10,12 +10,12 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class FoodRecommendationRequest {
-    private double tinggiBadan; // tb
-    private double beratBadan; // bb
-    private double usia; // usia
-    private double usiaKehamilan; // usia kehamilan
+    private double tinggiBadan;
+    private double beratBadan;
+    private double usia;
+    private double usiaKehamilan;
     private List<String> alergi;
-    private String diabetesGestasional; // "ya" atau "tidak"
+    private String diabetesGestasional;
     private double faktorAktivitas;
     private double faktorStres;
 }

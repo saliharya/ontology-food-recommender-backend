@@ -34,15 +34,18 @@ public class FoodRecommendationService {
     }
 
     public TEEBreakdown getTEECalculation(FoodRecommendationRequest request) {
-        return NutritionCalculator.calculateTEEBreakdown(request.getBeratBadan(), request.getUsiaKehamilan(),
-                request.getFaktorAktivitas(), request.getFaktorStres());
+        return NutritionCalculator.calculateTEEBreakdown(request.getBeratBadan(), request.getTinggiBadan(),
+                request.getUsia(), request.getUsiaKehamilan(), request.getFaktorAktivitas(), request.getFaktorStres());
     }
+
 
     public FoodRecommendationResponse generateFoodRecommendation(FoodRecommendationRequest request) {
         TEEBreakdown teeBreakdown = getTEECalculation(request);
         List<String> alergi = request.getAlergi();
 
-        return new FoodRecommendationResponse(getFoodsForCalories(teeBreakdown.getSarapan(), alergi, "Sarapan"),
+        return new FoodRecommendationResponse(teeBreakdown.getTotalTEE(), teeBreakdown.getAmb(),
+                teeBreakdown.getSarapan(), teeBreakdown.getMakanSiang(), teeBreakdown.getMakanMalam(),
+                teeBreakdown.getCemilan(), getFoodsForCalories(teeBreakdown.getSarapan(), alergi, "Sarapan"),
                 getFoodsForCalories(teeBreakdown.getMakanSiang(), alergi, "MakanSiang"),
                 getFoodsForCalories(teeBreakdown.getMakanMalam(), alergi, "MakanMalam"),
                 getFoodsForCalories(teeBreakdown.getCemilan(), alergi, "Cemilan"));
@@ -68,7 +71,7 @@ public class FoodRecommendationService {
         String menuClassName = "Menu";
         String memilikiKaloriPropertyName = "memilikiKalori";
         String tidakMengandungPropertyName = "tidakMengandung";
-        String sesuaiUntukWaktuMakanPropertyName = "sesuaiUntukWaktuMakan";
+        String sesuaiUntukWaktuMakanPropertyName = "disajikanPada";
 
         OntClass menuClass = ontModel.getOntClass(ontologyIri + menuClassName);
         if (menuClass == null) {

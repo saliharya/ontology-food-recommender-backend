@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TEEBreakdown {
+    private double amb;
     private double totalTEE;
     private double sarapan;
     private double makanSiang;
