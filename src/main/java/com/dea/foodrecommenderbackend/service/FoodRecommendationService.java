@@ -84,7 +84,14 @@ public class FoodRecommendationService {
         }
 
         ontModel.listIndividuals(menuClass).filterKeep(menu -> menu.hasProperty(ontModel.getProperty(ontologyIri + sesuaiUntukWaktuMakanPropertyName), waktuMakanIndividual)).forEachRemaining(menuIndividual -> {
-            String foodName = menuIndividual.getLocalName();
+            String memilikiNamaPropertyName = "memilikiNama";
+            Property memilikiNamaProperty = ontModel.getProperty(ontologyIri + memilikiNamaPropertyName);
+
+            Literal namaLiteral = menuIndividual.getPropertyValue(memilikiNamaProperty) != null ?
+                    menuIndividual.getPropertyValue(memilikiNamaProperty).asLiteral() : null;
+
+            String foodName = (namaLiteral != null) ? namaLiteral.getString() : menuIndividual.getLocalName();
+
             int calories = 0;
             List<Alergen> alergenList = new ArrayList<>();
 
@@ -104,7 +111,13 @@ public class FoodRecommendationService {
                 }
             });
 
-            foods.add(new Food(foodName, calories, 0, 0, 0, 0, alergenList));
+            List<String> waktuMakanList = new ArrayList<>();
+            ontModel.listObjectsOfProperty(menuIndividual,
+                    ontModel.getProperty(ontologyIri + sesuaiUntukWaktuMakanPropertyName)).forEachRemaining(resource -> waktuMakanList.add(((Resource) resource).getLocalName()));
+
+            String waktuMakanStr = String.join(", ", waktuMakanList);
+
+            foods.add(new Food(foodName, calories, 0, 0, 0, 0, waktuMakanStr, alergenList));
         });
 
         return foods;
